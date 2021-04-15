@@ -121,10 +121,10 @@ span {
   flex-direction: column;
   flex: 80%;
 }
-#name {
+.name {
   font-weight: 500;
 }
-#status {
+.status {
   color: hsl(333, 80%, 67%);
 }
 .card-body {
