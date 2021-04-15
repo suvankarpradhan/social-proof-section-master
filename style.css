@@ -29,13 +29,11 @@ body {
 .heading {
   flex: 45%;
   flex-direction: column;
+  padding: 0% 6% 3% 0%;
 }
 .rating {
   flex: 55%;
   flex-direction: column;
-}
-.heading {
-  padding: 0% 6% 3% 0%;
 }
 .heading > p {
   color: hsl(303, 10%, 53%);
@@ -146,4 +144,54 @@ span {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+@media (max-width: 375px) {
+  .container,
+  .upper-portion,
+  .heading,
+  .rating,
+  .lower-portion,
+  .card1,
+  .card2,
+  .card3,
+  .card-body {
+    flex-direction: column;
+    flex: 100%;
+  }
+  .container {
+    margin: 20% 3%;
+  }
+  .heading {
+    padding: 0%;
+  }
+  .heading > p {
+    text-align: center;
+    padding: 5% 0%;
+  }
+  .rating1,
+  .rating2,
+  .rating3 {
+    margin: 2% 0%;
+    text-align: center;
+  }
+  .card1,
+  .card2,
+  .card3 {
+    padding: 7% 6%;
+  }
+  h1 {
+    text-align: center;
+    font-size: 30px;
+  }
+  span {
+    padding: 0% 30%;
+  }
+  body {
+    background: url("images/bg-pattern-top-mobile.svg") top left no-repeat,
+      url("images/bg-pattern-bottom-mobile.svg") bottom right no-repeat;
+  }
+  .attribution {
+    position: relative;
+    bottom: -45px;
+  }
 }
