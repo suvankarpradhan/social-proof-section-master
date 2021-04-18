@@ -25,7 +25,8 @@ Users should be able to:
 
 ### Screenshot
 
-see screenshot folder.
+![desktop-img](./screenshot/desktop.jpg)
+![mobile-img](./screenshot/mobile.jpg)
 
 ### Links
 
